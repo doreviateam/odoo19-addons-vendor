@@ -1,5 +1,7 @@
 # odoo19-addons-vendor
 
+**Dépôt GitHub** : [doreviateam/odoo19-addons-vendor](https://github.com/doreviateam/odoo19-addons-vendor)
+
 ## Objet
 
 Ce répertoire accueille les **addons tiers non OCA** nécessaires au sandbox
@@ -7,8 +9,8 @@ Odoo local.
 
 Il complète :
 
-- [odoo19-addons-dorevia](/Users/doreviateam/dorevia-saas/odoo19-addons-dorevia) pour les modules Dorevia ;
-- [odoo19-addons-oca](/Users/doreviateam/dorevia-saas/odoo19-addons-oca) pour les modules OCA retenus.
+- [odoo19-addons-dorevia](https://github.com/doreviateam/odoo19-addons-dorevia) pour les modules Dorevia ;
+- [odoo19-addons-oca](https://github.com/doreviateam/odoo19-addons-oca) pour les modules OCA retenus.
 
 ## Règle
 
