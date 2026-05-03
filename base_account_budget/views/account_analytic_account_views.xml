@@ -10,10 +10,10 @@
         <field name="arch" type="xml">
             <xpath expr="//group[@name='main']" position='after'>
                 <notebook groups="account.group_account_user">
-                    <page string="Budget Items">
+                    <page string="Éléments budgétaires">
                         <field name="budget_line" widget="one2many_list"
                                colspan="4" nolabel="1" mode="list">
-                            <list string="Budget Items" editable="top">
+                            <list string="Éléments budgétaires" editable="top">
                                 <field name="budget_id"/>
                                 <field name="general_budget_id"/>
                                 <field name="date_from"/>
@@ -22,14 +22,14 @@
                                 <field name="planned_amount"
                                        widget="monetary"/>
                                 <field name="practical_amount"
-                                       sum="Practical Amount"
+                                       sum="Montant réalisé"
                                        widget="monetary"/>
                                 <field name="theoretical_amount"
-                                       sum="Theoretical Amount"
+                                       sum="Montant théorique"
                                        widget="monetary"/>
                                 <field name="percentage"/>
                             </list>
-                            <form string="Budget Items">
+                            <form string="Éléments budgétaires">
                                 <field name="budget_id"/>
                                 <field name="general_budget_id"/>
                                 <field name="date_from"/>
